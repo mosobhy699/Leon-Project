@@ -19,7 +19,6 @@ body {
     font-family: " work sans", sans-serif;
 }
 
-/* we use padding left and right because in mobile view the container start from extreme right*/
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +29,6 @@ body {
 
 }
 
-/* framework of screens in media to don't make scroll in small screens and save the content of container, now you can delete width of container*/
 /*small screen*/
 @media (min-width:768px) {
     .container {
@@ -123,7 +121,6 @@ body {
 .header .links .icon span {
     background-color: black;
     margin-bottom: 5px;
-    /* we can use this properities in icon span to affect on all spans inside it*/
 }
 
 .header .links .icon span:first-child {
@@ -280,8 +277,6 @@ body {
 .services .services-content .column {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    /* don't write , */
-    /* this ( no space)*/
     gap: 20px;
 }
 
@@ -355,7 +350,6 @@ body {
 }
 
 .portfolio .portfolio-content .card img {
-    /* max-width: 100%; you can use this property if the images have same width and height */
     max-width: 100%;
     height: 250px;
     text-align: center;
